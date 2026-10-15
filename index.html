@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أفغانستان · باكستان · الهند</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --text:#1b2130; --muted:#667085;
+  --border:#e1e5ed; --accent:#0f5c4d; --accent-soft:#e3f2ee;
+  --view:#2b4a8c; --view-soft:#e8eefb;
+  --key:#9a4a0b; --key-soft:#fdf1e4;
+  --shadow:0 1px 3px rgba(20,30,50,.06),0 10px 28px rgba(20,30,50,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#10141b; --surface:#171c26; --text:#e8ecf3; --muted:#9aa4b6;
+    --border:#283040; --accent:#4cc3a6; --accent-soft:#12302a;
+    --view:#8fb0f5; --view-soft:#1a2440;
+    --key:#f0a86a; --key-soft:#2b2014; --shadow:none;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Cairo',system-ui,sans-serif;line-height:1.95;font-size:18px}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+
+nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+nav .wrap{display:flex;gap:6px;overflow-x:auto;white-space:nowrap;padding-block:10px}
+nav a{color:var(--muted);text-decoration:none;padding:4px 14px;border-radius:999px;font-size:15px;font-weight:600}
+nav a:hover{background:var(--accent-soft);color:var(--accent)}
+
+header{padding:60px 0 34px;background:linear-gradient(180deg,var(--accent-soft),transparent)}
+h1{margin:0;font-size:clamp(28px,5vw,44px);font-weight:800;line-height:1.4}
+h1 span{color:var(--accent)}
+
+section{padding:34px 0 6px}
+h2{font-size:28px;font-weight:800;margin:0 0 18px;display:flex;align-items:center;gap:12px}
+h2::before{content:"";width:8px;height:30px;border-radius:4px;background:var(--accent)}
+
+/* tree */
+.tree,.tree ul{list-style:none;margin:0;padding:0}
+.tree ul{margin-inline-start:18px;padding-inline-start:22px;border-inline-start:2px solid var(--border)}
+.tree li{position:relative;margin:10px 0}
+.tree ul>li::before{content:"";position:absolute;inset-inline-start:-22px;top:20px;width:20px;border-top:2px solid var(--border)}
+.node{display:inline-block;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:6px 16px;box-shadow:var(--shadow);max-width:100%}
+.node.top{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700;font-size:20px}
+.node.view{background:var(--view-soft);border-color:color-mix(in srgb,var(--view) 35%,transparent)}
+.node.view .tagv{color:var(--view);font-weight:800}
+.node.key{background:var(--key-soft);border-color:color-mix(in srgb,var(--key) 35%,transparent);font-weight:700}
+.node.star{border-inline-start:5px solid var(--accent)}
+
+.down{display:block;color:var(--muted);font-size:22px;margin:6px 6px;line-height:1}
+.arrow{color:var(--accent);font-weight:800;margin-inline:6px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:10px 0}
+.pill{background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:4px 16px;font-weight:700}
+
+.band{background:var(--surface);border:1px solid var(--border);border-inline-start:6px solid var(--key);border-radius:14px;padding:18px 24px;box-shadow:var(--shadow);margin:20px 0}
+.band .lbl{color:var(--key);font-weight:800}
+.big{font-weight:700;font-size:20px}
+
+footer{padding:40px 0 50px}
+@media print{nav{display:none}body{background:#fff}.node{box-shadow:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#afghanistan">أفغانستان (وطالبان)</a>
+    <a href="#common">العامل المشترك</a>
+    <a href="#internal">باكستان (داخليا)</a>
+    <a href="#india">باكستان VS الهند</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <h1>أفغانستان <span>·</span> باكستان <span>·</span> الهند</h1>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ======= الورقة الأولى ======= -->
+<section id="afghanistan">
+  <h2>أفغانستان (وطالبان)</h2>
+
+  <span class="down">↓</span>
+  <ul class="tree">
+    <li><span class="node">مشكلة الحدود (خط ديوراند)</span></li>
+    <li><span class="node">مشكلة طالبان باكستان ورؤية باكستان أن السلطات الأفغانية لها يد</span></li>
+    <li><span class="node">اللاجئون الأفغان بأعداد كبرى مع احتمالية ترحيلهم</span></li>
+  </ul>
+
+  <span class="down">↓</span>
+  <div class="band">
+    <span class="lbl">أساس التوتر</span>
+    الجماعات المسلحة وعدم وجود تعاون مشترك للحل مع اتهامات لأفغانستان
+  </div>
+
+  <div class="row"><span class="arrow">←</span><span class="pill">باكستان</span><span class="arrow">↙</span></div>
+  <ul class="tree">
+    <li>
+      <span class="node view"><span class="tagv">وجهة نظري</span></span>
+      <ul>
+        <li><span class="node view">اعتقد أن أفغانستان متعاونة مع عدو وأن الهدف تضليل أو تشتيت باكستان</span></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="row"><span class="pill">السيناريوهات المتوقعة</span><span class="arrow">←</span></div>
+  <ul class="tree">
+    <li>
+      <span class="node">إن لم يتم الوصول لحل لملف الجماعات المسلحة ستستمر الضربات الباكستانية + الرد الأفغاني</span>
+      <ul>
+        <li>
+          <span class="node">غالبًا رد على أهداف حدودية</span>
+          <ul>
+            <li><span class="node">أعتقد ليه عالقة بمشكلة الحدود أكثر من مجرد أنه له عالقة بالجماعات المسلحة</span></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><span class="node star">نسبة كبيرة الأفغان ليهم هدف من المشكلة دي وافتعلوها كحجة أو ستار للوصول لهدف معين وإلا كانوا حلوا المشكلة من بدري</span></li>
+  </ul>
+</section>
+
+<!-- ======= الورقة الثانية ======= -->
+<section id="common">
+  <h2>العامل المشترك بين أغلب المشاكل</h2>
+  <ul class="tree">
+    <li><span class="node key">الجماعات المسلحة</span></li>
+  </ul>
+
+  <span class="down">↓</span>
+  <ul class="tree">
+    <li>
+      <span class="node view"><span class="tagv">وضع وجهة نظري</span></span>
+      <ul>
+        <li><span class="node view">الجماعات جزء من مخطط كبير يهدف لضرب باكستان وتدميرها.</span></li>
+        <li><span class="node view">أمريكا أساس كل الخراب.</span></li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section id="internal">
+  <h2>باكستان (داخليا)</h2>
+  <span class="down">↓</span>
+  <ul class="tree">
+    <li>
+      <span class="node star">ملف عمران خان</span>
+      <ul>
+        <li>
+          <span class="node">سياسيًا</span>
+          <ul>
+            <li><span class="node">حزبه قوي سياسيًا وقادر على تحريك الشارع والضغط العسكري</span></li>
+            <li><span class="node">أعمال تخريبية</span></li>
+          </ul>
+        </li>
+        <li><span class="node">مش شايف ان ليهم عالقة بطالبان لكني شايف أن الأهداف لا تجتمع لكن ممكن يحصل تعاون في التخريب إن لم يتم حل مشكلة عمران خان ودا معناه دمار كبير (محتمل)</span></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="row"><span class="pill">وجهة نظري</span><span class="arrow">←</span></div>
+  <ul class="tree">
+    <li><span class="node view">في احتمالية للتعاون مع الأطراف اللي ضد الحكومة</span></li>
+    <li><span class="node view">لابد من حل المشكلة قبل الإنفجار العظيم.</span></li>
+  </ul>
+</section>
+
+<!-- ======= الورقة الثالثة ======= -->
+<section id="india">
+  <h2>باكستان VS الهند</h2>
+  <ul class="tree">
+    <li>
+      <span class="node star">إقليم كشمير</span>
+      <ul>
+        <li><span class="node">أساس المشكلة والخلاف</span></li>
+        <li><span class="node">من المتوقع جدا حدوث حروب لأجله.</span></li>
+      </ul>
+    </li>
+    <li>
+      <span class="node star">الجماعات المسلحة</span>
+      <ul>
+        <li><span class="node">شايفه ان في حد بيحاول يغرق باكستان في حرب مع الهند وان باكستان بريئة بالفعل من هجمات العنف</span></li>
+      </ul>
+    </li>
+    <li>
+      <span class="node star">معاهدة نهر السند</span>
+      <ul>
+        <li><span class="node">تستخدمها الهند كورقة ضغط وتعتبر باكستان مسألة حياة أو موت</span></li>
+        <li><span class="node">الهند متقدرش تغامر لأنه ممكن النووي يدخل ع الخط</span></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="row"><span class="pill">وجهة نظري</span><span class="arrow">←</span></div>
+  <ul class="tree">
+    <li><span class="node view">باكستان داخلة على أيام صعبة يجب إنها تبدأ تقلل أطراف النزاع خصوصًا حزب عمران خان وحتى وهي لسه بتفتح أي جبهة</span>
+      <ul>
+        <li><span class="node view">الهند وأفغانستان</span></li>
+      </ul>
+    </li>
+    <li><span class="node view">لأن لو ظل الوضع كما هو باكستان سيتم وضعها بين الهند وأفغانستان وأنصار عمران خان!</span></li>
+  </ul>
+</section>
+
+</main>
+<footer></footer>
+</body>
+</html>
